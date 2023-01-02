@@ -37,6 +37,7 @@ public class StudentReport {
 				throw new NullStudentObjectException("object is null");
 			}
 			catch(NullStudentObjectException n) {
+				n.printStackTrace();
 				System.out.println(n.getMessage());
 			}
 		} else {
@@ -47,6 +48,7 @@ public class StudentReport {
 					throw new NullNameException("name is null");
 				}
 				catch(NullNameException e) {
+					e.printStackTrace();
 					System.out.println(e.getMessage());
 				}
 			} 
@@ -57,6 +59,7 @@ public class StudentReport {
 					throw new NullMarksArrayException("marks array is null");
 				}
 				catch(NullMarksArrayException nm) {
+					nm.printStackTrace();
 					System.out.println(nm.getMessage());
 				}
 			}
