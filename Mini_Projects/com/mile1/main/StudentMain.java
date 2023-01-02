@@ -14,7 +14,7 @@ public class StudentMain {
 		for(int i=0;i<data.length;i++) {
 			data[i] = new Student();
 		}
-		data[0] = new Student(null,new int[] {85,7,95});
+		data[0] = new Student("Sekhar",new int[] {85,76,95});
 		data[1] = new Student(null, new int[] {11,22,330});
 		data[2] = null;
 		data[3] = new Student("Manoj",null);
